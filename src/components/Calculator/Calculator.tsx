@@ -17,6 +17,7 @@ export const Calculator: React.FC<CalculatorProps> = ({ value, setValue }) => {
       resize="none"
       _focus={{ outline: 'none' }}
       overflow="hidden"
+      placeholder="Digite algum valor..."
       value={value}
       onChange={({ currentTarget: { value } }) => setValue(value)}
     />
